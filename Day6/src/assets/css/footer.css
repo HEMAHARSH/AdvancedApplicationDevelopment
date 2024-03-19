@@ -1,0 +1,114 @@
+
+
+  .footer1 {
+    width: 100%;
+    font: 11px "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-flow: column;
+    padding-top: -25vh;
+    margin-left: 0%;
+   
+  }
+  .flex-rw {
+    display: flex;
+    flex-flow: row wrap;
+width:100%
+  }
+  footer {
+    background: #fafaf6;
+    margin-top: auto;
+    width: 100%;
+    
+  }
+  
+  .footer-list-top {
+    padding-top: 6px;
+    width: 21%;
+    text-align:justify;
+    list-style-type: none;
+    
+  }
+  .footer-list-top > li {
+    text-align: center;
+    padding-bottom: 1px;
+
+  }
+  .footer-list-header {
+    padding: 10px 0 5px 0;
+    color:rgb(10, 10, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+  }
+  .footer-list-anchor {
+    font: 1.3em "Open Sans", sans-serif;
+    color:rgba(68, 64, 64, 0.813);
+  }
+
+  .footer-bottom-section {
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid ;
+    margin-top: 10px
+  }
+  .footer-bottom-section > div:first-child {
+    margin-right: auto
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.5em;
+    color: #fff
+  }
+  .footer-address {
+    display: inline;
+    font-style:normal
+  }
+  .line{
+    border-left: 1px solid #ffffff;
+    height: 210px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+  .icons{
+    padding-right: 9%;
+  }
+  section{
+    background: rgb(213, 60, 119);
+    margin-top: -10px;
+    height:10%;
+    padding:15px;
+  }
+  .small{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .small1{
+    background-color: #331a00;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: 13px;
+    color: #fff;
+  }
+  .line1{
+    border-left: 1px solid white;
+    height: 18px;
+    left: 50%;
+    top: 5%;
+   
+  }
+  .line2
+  {
+    margin-top: 1px;
+  }
+  .footer-list-header{
+    font: 10px;
+  }
+  .pp,.tc{
+    margin-top: 1px;
+  }
