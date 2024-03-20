@@ -1,0 +1,93 @@
+.cart-container {
+  position: absolute;
+    margin: 15% 5% 5% 15%;
+    width: 780px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  .cart-items {
+    margin-top: 20px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table th {
+    font-size: 18px;
+    background-color: #c5aeae;
+  }
+  .table td {
+    font-size: 16px;
+  }
+  
+  
+  .quantity-controls button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .quantity-controls span {
+    margin: 0 10px;
+  }
+  .table th,
+  .table td {
+    padding: 5px;
+    text-align: center;
+    border: 0.1em solid rgb(242, 134, 134);
+  
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quantity-controls button {
+    margin: 0 5px;
+  }
+  
+ 
+  .no-items{
+    padding-left: 1%;
+    padding-top: 1%;
+    
+    padding-bottom: 50%;
+    border-radius: 20px;
+  }
+  
+  #pricee
+  {
+    float: right;
+  }
+  #cartttt
+  {
+    float: left;
+  }
+  .total1{
+    column-span: 4;
+  }
+  .total h3{
+    font-size: 18px;
+  }
+  .final-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 1%;
+    padding-bottom: 20px;
+    
+  }
+  .final-bottom button{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: #a6f7ba;
+    border: 0.1em solid green;
+  }

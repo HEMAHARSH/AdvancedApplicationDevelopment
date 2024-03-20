@@ -1,0 +1,155 @@
+.containerrd{
+   width:40px;
+  position: absolute;
+  top:180px;
+  }
+  #main
+  {
+    margin-left: 20px;
+  }
+  .desimgs{
+    display: flex;
+    padding-left: 40px;
+  }
+  .thumbnail
+  {
+    margin-top: 20px;
+  }
+  .flex_row{
+    
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 2%;
+  }
+  
+  #userr
+  {
+    position: absolute;
+    left:865px;
+    top: 27px;
+  white-space: nowrap;
+    font-size: 15px;
+  }
+  .clicked {
+    border: 2px solid black;
+  }
+ 
+  #hrr{
+   
+   margin-top: -10px;
+    margin-left: 3%;
+    width: 600px;
+    
+  }
+  .content
+  {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .content h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+    margin-left: 3%;
+    margin-bottom: -20px;
+
+  }
+  #ratingss{
+    
+    margin-top: 20px;
+  }
+  .content h4{
+    
+    margin-left: 3%;
+  }
+  #color
+  {
+    margin-bottom: 10px;
+  }
+  .options select {
+    
+    width: 300px; /* Adjust the width as needed */
+    padding: 10px; /* Add padding for better appearance */
+    border: none;
+    box-shadow: 1px 1px 2px 1px  grey;
+    border-radius: 10px;
+    margin-left: 3%;
+  }
+  .custom1{
+    margin-top: 2%;
+    width: 300px; /* Adjust the width as needed */
+    padding: 15px; /* Add padding for better appearance */
+    border: none;
+    box-shadow: 1px 1px 2px 1px  grey;
+    border-radius: 10px;
+    margin-left: 3%;
+  }
+  .personalization {
+    font-size: 15px;
+    margin-top: 2%;
+    padding: 5px 10px 5px 20px;
+    border-radius: 30px;
+      margin-left: 20px;
+    cursor: pointer;
+  }
+  .personalization:hover{
+   
+    border: 0.1em solid black;
+  }
+
+  .options textarea {
+    margin-top: 10px; /* Add margin for spacing */
+    width: 60%; /* Make the text area expand to fill its container */
+    padding: 10px;
+    line-height:1.5;
+    resize: none;
+    border-radius: 9px;
+  
+    /* Hide scrollbar arrows for WebKit browsers (Chrome, Safari, Opera) */
+    /* Enable automatic height expansion (JavaScript approach) */
+    height:60px;
+  
+    /* Option 1 (alternative): Set scrollbar width to a small value (modern browsers) */
+    scrollbar-width:none; /* Firefox, etc. */
+  /* Rounded corners for better aesthetics */
+  &.my-textarea {
+    transition: height 0.2s ease-in-out;  /* Smooth height transition */
+  }
+  }
+  #perchase
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: row;
+    width:150px;
+    height:125px; 
+    margin-top: 310px;
+   position: absolute;
+   left:200px;
+  }
+  .options .personalization {
+    display: flex;
+    align-items: center; 
+  }
+  
+ 
+  .personalization-text{
+    font-weight: 500;
+    padding-top: 1%;
+    color: #1b1313;
+    font-size: 14;
+  }
+ 
+  .basket{
+    
+    margin-top: 3%;
+    margin-left: 3%;
+    padding: 10px 150px 10px 150px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .item-details1{
+    display: flex;
+  }
