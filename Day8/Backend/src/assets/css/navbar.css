@@ -1,0 +1,124 @@
+#navbarr
+{
+   height: 100px;
+   width: 100%;
+   position:fixed;
+   display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:flex-end;
+  margin-top: -10px;
+  z-index: 100; 
+}
+#nameusern
+{
+    position: absolute;
+    left:1018px;
+    bottom:-10px;
+    font-size: x-snmall;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  rgb(84, 81, 81);
+}
+#textnav
+{
+    position: absolute;
+    left:90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #801302;
+}
+#accn
+{
+    position: absolute;
+    color: rgb(84, 81, 81);
+    bottom:22px;
+    right:170px;
+  
+}
+#heartn
+{
+    position: absolute;
+    color: rgb(84, 81, 81);
+    bottom:22px;
+    right: 100px;
+  
+}
+#heartna
+{
+    position: absolute;
+    color: rgb(84, 81, 81);
+    bottom:22px;
+    right: 115px;
+  
+}
+#accn:hover, #cartn:hover, #heartn:hover, #homn:hover
+{
+    color: rgb(174, 4, 95);
+}
+#cartn
+{
+    position: absolute;
+  color: rgb(84, 81, 81);
+  bottom:22px;
+  right: 30px;
+
+  
+}
+#logoimagen
+{
+   align-items: center;
+    width: 200px;
+    position:relative;
+    right:1000px;
+    top:3px;
+    padding-top: 0px;
+    left:-1030px;
+
+  
+
+}
+#homn
+{
+    
+        position: absolute;
+        color: rgb(84, 81, 81);
+        bottom:22px;
+        right:240px;
+      
+    
+}
+#homna
+{
+    
+        position: absolute;
+        color: rgb(84, 81, 81);
+        bottom:22px;
+        right:30px;
+      
+    
+}
+.personalisedbarr
+{
+    background-color:rgb(245, 243, 240);
+    
+   height: 60px;
+   width: 100%;
+   position: absolute;
+   top:90px;
+   display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-evenly;
+   
+    box-shadow: 0 0.288em 0.55em  #342313;
+}
+#hoveringr
+{
+    text-decoration: none;
+    color: black;
+
+}
+#hoveringr:hover{
+    color: rgb(156, 2, 28);
+}
